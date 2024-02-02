@@ -1,0 +1,28 @@
+#eliecarreviewlogin {
+    -webkit-animation: bgcolorchange 4s infinite;
+    animation: 2s infinite bgcolorchange;
+  }
+  @keyframes bgcolorchange {
+    0% {
+      background-color: rgb(224,255,255);
+    }
+    18% {
+      background-color: rgb(175,238,238);
+    }
+    36% {
+      background-color: rgb(135,206,250);
+    }
+    54% {
+      background-color: rgb(64, 196, 240);
+    }
+    72% {
+        background-color: rgb(135,206,250);
+      }
+      90% {
+        background-color: rgb(175,238,238);
+      }
+
+    100% {
+      background-color: rgb(255, 255, 255);
+    }
+  }
